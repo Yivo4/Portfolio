@@ -14,11 +14,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="/style.css">
 </head>
-<body class="">
+<body class="dark" id="body">
     <div class="follow">
         <ul class="contac">
             <li>
-                <small>Contact_me</small>
+                <small class="dark">Contact_me</small>
             </li>
             <li>
                 <a href="https://github.com/Yivo4?tab=repositories" target="_blank" class="fab fa-github"></a>
@@ -27,7 +27,7 @@
                 <a href="https://www.linkedin.com/in/ivo-montanari-6614a0203/" target="_blank" class="fab fa-linkedin-in"></a> 
             </li>
             <li>
-                <a class="far fa-envelope" href="https://mail.google.com/mail/?view=cm&fs=1&to=ivomontanarideveloper@gmail.com&su=Consulta&body=" target="_blank"></a>
+                <a class="far fa-envelope light" href="https://mail.google.com/mail/?view=cm&fs=1&to=ivomontanarideveloper@gmail.com&su=Consulta&body=" target="_blank"></a>
             </li>
         </ul>
     </div>
@@ -46,7 +46,7 @@
     <div class=" menu">
         <ul class="collapsible popout" data-collapsible="popout">
             <li>
-                <div class="collapsible-header"><i class="material-icons ul-icons">star</i>Goals</div>
+                <div class="collapsible-header dark"><i class="material-icons ul-icons">star</i>Goals</div>
                 <div class="collapsible-body"> 
                     <h5>Personal Goals</h5>
                                        
@@ -56,7 +56,7 @@
                 </div>
             </li>
             <li>
-                <div class="collapsible-header"><i class="material-icons ul-icons">extension</i>Skills</div>
+                <div class="collapsible-header dark"><i class="material-icons ul-icons">extension</i>Skills</div>
                 <div class="collapsible-body">
                   
                     <h5>Front-end <i class="material-icons li-icons">desktop_windows</i></h5>    
@@ -79,15 +79,15 @@
                 </div>
             </li>
             <li>
-                <div class="collapsible-header"><i class="material-icons ul-icons">dvr</i>Proyects</div>
+                <div class="collapsible-header dark"><i class="material-icons ul-icons">dvr</i>Proyects</div>
                 <div class="collapsible-body c-body">
                     <div class="content hoverable">
                         <a href="https://fitness-tucuman.netlify.app/" target="_blank">
                             <div class="content-overlay"></div>
                             <img class="content-image" src="/img/fitness.png" alt="Stin" width="500px" height="296px">
                             <div class="content-details fadeIn-bottom">
-                                <h4 class="content-title">Fitness-Tucuman</h3>
-                                <p class="content-text">HTML & CSS Proyect</p>
+                                <h4 class="content-title">Fitness-Tucuman</h4>
+                                <p class="content-text">HTML & CSS -Bootstrap- Proyect</p>
                             </div>
                         </a>
                     </div>   
@@ -96,8 +96,8 @@
                             <div class="content-overlay"></div>
                             <img class="content-image" src="/img/stin.png" alt="Stin" width="500px" height="296px">
                             <div class="content-details fadeIn-bottom">
-                                <h4 class="content-title">Stin-Games</h3>
-                                <p class="content-text">HTML, CSS & Javascript Proyect</p>
+                                <h4 class="content-title">Stin-Games</h4>
+                                <p class="content-text">HTML, CSS -Bootstrap- & Javascript Proyect</p>
                             </div>
                         </a>
                     </div>       
@@ -106,7 +106,7 @@
                             <div class="content-overlay"></div>
                             <img class="content-image" src="/img/bird.png" alt="Bird" width="500px" height="296px">
                             <div class="content-details fadeIn-bottom">
-                                <h4 class="content-title">Birds Domain</h3>
+                                <h4 class="content-title">Birds Domain</h4>
                                 <p class="content-text">MERN (MongoDB, Express.js, React.js and Node.js) Proyect</p>
                             </div>
                         </a>
@@ -114,7 +114,7 @@
                 </div>
             </li>
             <li>
-                <div class="collapsible-header"><i class="material-icons ul-icons">domain</i>Studies & Experience</div>
+                <div class="collapsible-header dark"><i class="material-icons ul-icons">domain</i>Studies & Experience</div>
                 <div class="collapsible-body">
                     <h5>Studies</h5>
                     <p><i class="material-icons tiny">fiber_manual_record</i> Full Stack Developer - RollingCode School - June 2020 / December 2020.</p>
@@ -132,15 +132,27 @@
         </ul>
     </div>
     <div class="fixed-action-btn">
-        <a class="btn-floating btn-large floating-menu pulse">
-          <i class="large material-icons floating-icon-menu">menu</i>
+        <a class="btn-floating btn-large floating-menu pulse waves-effect waves-light light">
+          <i id="menu" class="large material-icons floating-icon-menu">menu</i>
         </a>
         <ul>
-          <li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
-          <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
-          <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
-          <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
+          <li><a href="https://drive.google.com/u/1/uc?id=10HNVydobbP8vKin7TAnF2QqVtXkQcJ2O&export=download" class="btn-floating red"><i class="material-icons">file_download</i></a></li>
+          <li><a id="lightDark" class="btn-floating yellow darken-1 waves-effect waves-light"><i class="material-icons">brightness_6</i></a></li>
+          <li><a href="#modal1" class="btn-floating green waves-effect waves-light modal-trigger"><i class="material-icons">image</i></a></li>
+          
         </ul>
+    </div>
+    <div id="modal1" class="modal dark">
+        <div class="modal-content">
+            <div class="modal-galery">
+                <div class="">
+                    <img class="zoom" src="/img/certificate.png" alt="Rollingcode" width="500px">
+                </div>
+                <div class="">
+                    <img class="zoom" src="/img/certificate2.jpeg" alt="Rollingcode" width="500px">
+                </div>
+            </div>
+        </div>
     </div>
     <script src="app.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
