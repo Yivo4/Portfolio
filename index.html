@@ -7,7 +7,6 @@
     <meta name="description" content="professional portfolio of web developer.">
     <meta name="keywords" content="developer, programador, desarrolador, desarrolador web, web developer, ivo montanari, tucuman, argentina.">
     <meta name="author" content="Ivo Montanari">
-    <meta name="robots" content="index">
     <title>Ivo's Portfolio</title>
     <!--FontAwesome Icons-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
@@ -17,8 +16,36 @@
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="/style.css">
+    <link class="favicon" rel="icon" href="/img/favicon.png">
 </head>
 <body class="dark" id="body">
+    
+    <div class="fixed-action-btn">
+        <a class="btn-floating btn-large floating-menu pulse waves-effect waves-light light">
+          <i id="menu" class="large material-icons floating-icon-menu">menu</i>
+        </a>
+        <ul>
+            <li>
+                <a href="https://drive.google.com/u/1/uc?id=10HNVydobbP8vKin7TAnF2QqVtXkQcJ2O&export=download" class="btn-floating red cv">
+                    <i class="material-icons">file_download</i>
+                </a>
+                <p class="pop-mess dark">Download CV</p>
+            </li>
+            <li>
+                <a id="lightDark" class="btn-floating yellow darken-1 waves-effect waves-light cv">
+                    <i class="material-icons">brightness_6</i>
+                </a>
+                <p class="pop-mess">Change Brightness</p>
+            </li>
+            <li>
+                <a href="#modal1" class="btn-floating green waves-effect waves-light modal-trigger cv">
+                    <i class="material-icons">image</i>
+                </a>
+                <p class="pop-mess">Galery</p>
+            </li>
+          
+        </ul>
+    </div>
     <div class="follow">
         <ul class="contac">
             <li>
@@ -37,17 +64,17 @@
     </div>
     
     <div class="container title">
-        <div class="">
+        <div class="container-img">
             <img src="/img/dev.png" alt="Dev" class="dev-img">
         </div>
         <div class="flow-text">
             <h1>Ivo Montanari</h1>
             <h3>Web/Mobile Developer</h3>
-            <p>Hello, thanks for check my portfolio, I'm a Full Stack Web/Mobile Developer. In my portfolio you can download my CV, see my projectors, skills and contact information.</p>
+            <p>Hello, thanks for check my portfolio, I'm a Full Stack Web/Mobile Developer. In my portfolio you can download my CV, see my projects, skills and contact information.</p>
         </div>
     </div>
     
-    <div class=" menu">
+    <div class="container menu">
         <ul class="collapsible popout" data-collapsible="popout">
             <li>
                 <div class="collapsible-header dark"><i class="material-icons ul-icons">star</i>Goals</div>
@@ -136,17 +163,7 @@
             </li>
         </ul>
     </div>
-    <div class="fixed-action-btn">
-        <a class="btn-floating btn-large floating-menu pulse waves-effect waves-light light">
-          <i id="menu" class="large material-icons floating-icon-menu">menu</i>
-        </a>
-        <ul>
-          <li><a href="https://drive.google.com/u/1/uc?id=10HNVydobbP8vKin7TAnF2QqVtXkQcJ2O&export=download" class="btn-floating red"><i class="material-icons">file_download</i></a></li>
-          <li><a id="lightDark" class="btn-floating yellow darken-1 waves-effect waves-light"><i class="material-icons">brightness_6</i></a></li>
-          <li><a href="#modal1" class="btn-floating green waves-effect waves-light modal-trigger"><i class="material-icons">image</i></a></li>
-          
-        </ul>
-    </div>
+    
     <div id="modal1" class="modal dark">
         <div class="modal-content">
             <div class="modal-galery">
@@ -159,6 +176,13 @@
             </div>
         </div>
     </div>
+
+   <footer>
+       <a href="https://github.com/Yivo4?tab=repositories" target="_blank" class="fab fa-github"></a>
+       <a href="https://www.linkedin.com/in/ivo-montanari-6614a0203/" target="_blank" class="fab fa-linkedin-in"></a> 
+       <a class="far fa-envelope light" href="https://mail.google.com/mail/?view=cm&fs=1&to=ivomontanarideveloper@gmail.com&su=Consulta&body=" target="_blank"></a>
+   </footer>
+   
     <script src="app.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>
