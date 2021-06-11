@@ -151,7 +151,7 @@ small {
 } 
 .fixed-action-btn {
     top: 5%;
-    right: 15%;
+    left: 5%;
     height: fit-content;
 }
 
@@ -202,6 +202,8 @@ footer {
         background-image: url(/img/dev.png);
         background-repeat:no-repeat;
         background-size:contain;
+        margin-top: 5%;
+        text-align: end;
     }
 }
 @media only screen and (max-width:464px) {
