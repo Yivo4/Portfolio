@@ -184,7 +184,6 @@ footer {
     width: fit-content;
     position: absolute;
 }
-
 @media only screen and (max-width: 850px) {
     .follow {
         display: none;
@@ -192,7 +191,6 @@ footer {
     footer {
         display: flex;
         justify-content: center;
-        position: fixed;
         bottom: 0;
     }
 }
