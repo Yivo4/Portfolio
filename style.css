@@ -151,7 +151,7 @@ small {
 } 
 .fixed-action-btn {
     top: 5%;
-    right: 5%;
+    right: 15%;
     height: fit-content;
 }
 
@@ -192,7 +192,8 @@ footer {
     footer {
         display: flex;
         justify-content: center;
-        top: 100%;
+        position: fixed;
+        bottom: 0;
     }
 }
 @media only screen and (max-width: 800px) {
