@@ -205,6 +205,12 @@ footer {
         margin-top: 5%;
         text-align: end;
     }
+    
+}
+@media only screen and (max-width:700px){
+    .overlay {
+        background: rgba(33, 37, 41, 0.3);
+    }
 }
 @media only screen and (max-width:464px) {
   .title {
