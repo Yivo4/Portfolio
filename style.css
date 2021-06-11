@@ -68,15 +68,8 @@ small {
 .title {
     display: flex;
 }
-.menu {
-    display: flex;
-    justify-content: center;
-    
-}
-.menu li {
-    display: inline;
-    float:left;
-    margin-bottom: 20px;
+.goals {
+    margin-top: 20px;
 }
 .li-icons {
     font-size: 30px;
@@ -191,10 +184,7 @@ footer {
     width: fit-content;
     position: absolute;
 }
-.collapsible {
-    width: 90%;
-    margin-left: auto;
-}
+
 @media only screen and (max-width: 850px) {
     .follow {
         display: none;
@@ -213,11 +203,6 @@ footer {
         background-image: url(/img/dev.png);
         background-repeat:no-repeat;
         background-size:contain;
-    }
-}
-@media only screen and (max-width:531px) {
-    .collapsible-body {
-        width: auto;
     }
 }
 @media only screen and (max-width:464px) {
