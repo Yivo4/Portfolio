@@ -158,6 +158,7 @@ small {
 } 
 .fixed-action-btn {
     top: 5%;
+    right: 5%;
     height: fit-content;
 }
 
